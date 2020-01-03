@@ -528,7 +528,7 @@ Citation
 */
 .about-sigle-element2
 {
-  background-image: url(../IMG/banniere.jpg);
+  background-image: url(../img/banniere.jpg);
   color: #ffffff;
 }
 .heading-Homme{
@@ -544,8 +544,8 @@ Citation
 
 
 .notification{
-  background-image: url(../IMG/banniere.jpg);
-  color: #ffffff;
+  background-image:url(../img/banniere.jpg);
+  color: black;
   size: 10px;
   
 }
