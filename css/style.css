@@ -521,13 +521,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/*
+
 Citation
-*/
-/*.uno,.troiss,.nb
+
+.uno,.troiss,.nb
 {
-  color:black;
-  color: #000;
+  color:rgba(255, 255, 255, 0);
+  
 }
 */
 .about-sigle-element2
