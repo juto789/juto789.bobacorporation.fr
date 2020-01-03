@@ -514,7 +514,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-
+#citations
+{
+  color: #000;
+}
 
 
 /*
@@ -542,7 +545,7 @@ Citation
   width: 700;
 }
 
-
+/*
 .notification{
   background-image:url(../img/banniere.jpg);
   color: black;
@@ -550,7 +553,7 @@ Citation
   
 }
 
-
+*/
 
 
 
