@@ -130,7 +130,10 @@ a:hover {
   opacity: .75;
 }
 
-
+.boxe
+{
+background-image: url(../img/1);
+}
 
 
 
@@ -1169,4 +1172,9 @@ RESPONSIVE EXEMPLE
 .body
 {
   background-color: black;
+}
+
+#boxe
+{
+  background-image: url(../img/fonf.JPG);
 }
