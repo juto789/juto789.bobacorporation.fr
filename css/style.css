@@ -568,7 +568,10 @@ Citation
 
   #meteo
   {
+    margin-left: auto;
+    margin-right: auto;
 text-align: center;
+background-image: url(../img/cover.jpg);
   }
 
 
