@@ -553,7 +553,7 @@ Citation
   color: #000;
 }
 
-/
+
 .notification{
   background-image:url(../img/banniere.jpg);
   color: black;
@@ -561,8 +561,15 @@ Citation
   
 }
 
-*/
 
+/* ==================================================
+ meteo
+  ================================================== */
+
+  #meteo
+  {
+margin-left: auto;
+  }
 
 
 
@@ -680,9 +687,8 @@ Citation
   css les grands homme 
   ================================================== */
 
-  .une,.deux,{
     
-}
+
 
 #lo
 
