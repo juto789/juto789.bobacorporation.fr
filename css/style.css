@@ -592,9 +592,6 @@ background-image: url(../img/cover.jpg);
   Parallax Styling
   ================================================== */
 
-.section-title{
-  color: white;
-}
 .block {
   color: #fff;
   height: 490px;
@@ -616,6 +613,9 @@ background-image: url(../img/cover.jpg);
   Features Styling
   ================================================== */
 
+  #contact h2{
+    color: white;
+  }
 .features {
   padding-bottom: 45px;
 }
