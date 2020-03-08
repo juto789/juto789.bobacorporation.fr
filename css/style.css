@@ -13,7 +13,9 @@ h6 {
 {
   float: left;
 }
-
+ .uno{
+   color: black;
+ }
 p {
   line-height: 1.55;
   color:black;
