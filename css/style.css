@@ -1,9 +1,4 @@
-/*
-    Theme Name: Bell
-    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 
 h1,
 h2,
@@ -18,10 +13,12 @@ h6 {
 {
   float: left;
 }
-
+ .uno{
+   color: black;
+ }
 p {
   line-height: 1.55;
-  color: #333;
+  color:black;
   font-size: 400;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -880,46 +877,50 @@ background-image: url(../img/cover.jpg);
 #citations
 {
   background-image: url(../IMG/banniere.jpg);
-}
+  background-color: rgba(27,127,204,.8);
+  }
 /* ==================================================
   Responsive Styling
   ================================================== */
 
-@media (max-width: 768px) {
+@media (
+  max-width: 768px) {
   #header {
     height: 50px;
   }
 
   #header #logo {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
   }
 
   #header #logo h1 {
-    padding: 2px 0;
-    font-size: 26px;
+  padding: 2px 0;
+  font-size: 26px;
   }
 
   #header #logo img {
-    max-height: 30px;
+  max-height: 30px;
   }
 
   #nav-menu-container {
-    display: none;
+  display: none;
   }
 
   #mobile-nav-toggle {
-    display: inline;
+  display: inline;
   }
 }
 
-@media (max-width: 767px) {
+@media (
+  max-width: 767px) {
   .block {
     padding-left: 30px;
-    padding-right: 30px;
+  padding-right: 30px;
   }
 }
 
-@media (max-width: 61.9em) {
+@media (
+  max-width: 61.9em) {
   section,
   .block,
   .cta {
@@ -927,91 +928,92 @@ background-image: url(../img/cover.jpg);
   }
 
   .features {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
   }
 
   p,
   .block p {
-    margin: 0;
+  margin: 0;
   }
 
   .hero-brand {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
   }
 
   .tagline {
-    margin: 35px 0;
+  margin: 35px 0;
   }
 
   h1 {
-    font-size: 32px;
-    margin: 0;
+  font-size: 32px;
+  margin: 0;
   }
 
   h2,
   .tagline {
-    font-size: 24px;
+  font-size: 24px;
   }
 
   h2 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
   }
 
   h3 {
-    font-size: 14px;
+  font-size: 14px;
   }
 
   .hero {
-    padding: 75px 0;
+  padding: 75px 0;
   }
 
   .stats-col {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
   }
 
   .block {
-    height: auto;
+  height: auto;
   }
 
   .feature-col {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
   }
 
   .portfolio-grid .card h3.card-title {
-    font-size: 18px !important;
+  font-size: 18px !important;
   }
 
   .portfolio-grid .card .card-text {
-    font-size: 13px;
+  font-size: 13px;
   }
 
   .team .team-over {
-    padding-top: 20px;
+  padding-top: 20px;
   }
 
   .team .card .social-nav {
-    margin-bottom: 15px;
-    padding: 0;
+  margin-bottom: 15px;
+  padding: 0;
   }
 
   .site-footer .social-nav {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
   }
 
   .site-footer .list-inline {
-    text-align: center;
-    padding-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
   }
 
   .site-footer .list-inline li {
-    display: inline-block;
+  display: inline-block;
   }
 }
 
 /*
 GLOBAL
 */
-.heading-site,p,article{
+.heading-site,
+  p,article{
   text-align: center;
   font-family: 'Cinzel', serif;  
 
@@ -1020,7 +1022,7 @@ GLOBAL
 Citation
 */
 .heading-Homme{
-  font-family: 'Cinzel', serif;  
+  font-family: 'Cinzel', serif;
   color: #ffffff;
   background-color: brown;
 }
@@ -1045,7 +1047,7 @@ HEADER
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  height: 70px;                     
+  height: 70px;
   line-height: 70px;
   background-color: rgba(0, 0, 0, 0);
   position: fixed;
@@ -1060,7 +1062,7 @@ MODIFICATION DE HEADER
 
 .header .header-logo{
   color: azure;
-  font-family: 'Cinzel', serif;                     
+  font-family: 'Cinzel', serif;
   float: left;
   margin-left: 30px;
 
@@ -1072,19 +1074,18 @@ MODIFICATION DE HEADER
 }
 
 .header .header-menu {
-   float: right;
-   margin-right: 30px;
+  float: right;
+  margin-right: 30px;
 } 
 
-.header .header-menu a{
+.header .header-menu
+  a{
    margin-right: 15px;
-   color: aliceblue
+  color: aliceblue;}
 
 
-}
-
-
-.header .header-menu a:hover {
+.header .header-menu
+  a:hover {
    color:red;
 }
 
@@ -1092,8 +1093,7 @@ MODIFICATION DE HEADER
 BANNER
 */
 .banner{
-  margin-top: -20px
-}
+  margin-top: -20px;}
 
 .banner .banner-image{
   position: relative;
@@ -1106,7 +1106,8 @@ BANNER
   top: 30%;
 }
 
-.banner .banner-content h1,.banner .banner-content h2 {
+.banner .banner-content
+  h1,.banner .banner-content h2 {
   color: #ffffff;
 }
 
@@ -1131,7 +1132,8 @@ ABOUT
   text-align: center;
 }
 
-.about .about-single-element p{
+.about .about-single-element
+  p{
   text-align: left;
   margin-top: 20px;
 }
@@ -1155,12 +1157,14 @@ FOOTER
 
 }
 
-.footer .footer-informations ul {
+.footer .footer-informations
+  ul {
   padding: 0;
 }
 
-.footer .footer-informations ul li {
-  display: inline-block ;
+.footer .footer-informations
+  ul li {
+  display: inline-block;
   list-style-type: none;
 }
 
@@ -1175,7 +1179,8 @@ MODAL
 /*
 RESPONSIVE EXEMPLE
 */
-@media screen and (max-width: 600px) {
+@media screen and (
+  max-width: 600px) {
   #open_modal {
       display: none;
   }
@@ -1190,3 +1195,4 @@ RESPONSIVE EXEMPLE
 {
   background-image: url(../img/fonf.JPG);
 }
+ 
