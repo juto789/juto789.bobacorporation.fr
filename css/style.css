@@ -592,6 +592,9 @@ background-image: url(../img/cover.jpg);
   Parallax Styling
   ================================================== */
 
+.section-title{
+  color: white;
+}
 .block {
   color: #fff;
   height: 490px;
