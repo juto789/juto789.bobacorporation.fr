@@ -1,4 +1,9 @@
-
+/*
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
 
 h1,
 h2,
@@ -13,12 +18,10 @@ h6 {
 {
   float: left;
 }
- .uno{
-   color: black;
- }
+
 p {
   line-height: 1.55;
-  color:black;
+  color: #333;
   font-size: 400;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
