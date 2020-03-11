@@ -114,7 +114,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #f00;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -190,7 +190,8 @@ background-image: url(../img/1);
 ================================================== */
 
 #header {
-  background-image: url(../img/cover.jpg);
+  /* background-image: url(../img/cover.jpg); */
+  background-color: black;
   height: 70px;
 }
 
