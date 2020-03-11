@@ -190,8 +190,8 @@ background-image: url(../img/1);
 ================================================== */
 
 #header {
-  /* background-image: url(../img/cover.jpg); */
-  background-color: black;
+   background-image: url(../img/cover.jpg); 
+ 
   height: 70px;
 }
 
