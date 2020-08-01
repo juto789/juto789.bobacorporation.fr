@@ -1227,6 +1227,11 @@ RESPONSIVE EXEMPLE
   background-color: black;
 }
 
+body{
+	background-image: url("./"../../../../Documents/Site sans nom 3/la.jpg"");
+		color:white;
+}
+
 #boxe
 {
   background-image: url(../img/fonf.JPG);
