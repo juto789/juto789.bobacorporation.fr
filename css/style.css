@@ -850,7 +850,7 @@ about-sigle-element2{
   background-color: #b111;
   padding: 0;
 
-  position: relative;
+  position: static;
    left: 0;
    bottom: 0;
    width: 100%;
