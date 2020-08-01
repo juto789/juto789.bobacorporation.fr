@@ -45,7 +45,7 @@ h4 {
 
 .id,.s;
 {
-
+	color: white;
   background-image: url(../img/cover.jpg);
 }
 
@@ -62,6 +62,10 @@ a {
   Elements
   ================================================== */
 
+
+body{
+	color: white;
+}
 .btn {
   background-color: rgb(184, 25, 25);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -533,6 +537,7 @@ Citation
 	display: flex;
   align-items: left;
   justify-content: left;
+	color: white;
 }
 
 .uno,.troiss,.nb
@@ -556,7 +561,7 @@ Citation
 .une,.deux,.trois{
   height: 700;
   width: 700;
-  color: #000;
+  color: white;
 }
 
 
@@ -744,6 +749,9 @@ background-image: url(../img/cover.jpg);
 	text-align: center;
 }
 
+#kobe{
+	background-image: url("/kobe.jpg")
+}
 
 
 
@@ -889,7 +897,6 @@ background-image: url(../img/cover.jpg);
 .site-footer .credits a {
   color:red;
 }
-
 
 #citations
 {
@@ -1209,7 +1216,6 @@ RESPONSIVE EXEMPLE
       display: none;
   }
 }
-
 .body
 {
   background-color: black;
@@ -1219,4 +1225,8 @@ RESPONSIVE EXEMPLE
 {
   background-image: url(../img/fonf.JPG);
 }
- 
+
+
+.logo2{
+	text-align: right;
+}
