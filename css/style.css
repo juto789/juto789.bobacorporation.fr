@@ -11,14 +11,15 @@ h6 {
 
 .imageFlottant
 {
-  float: left;
+  position: left;
+	
 }
  .uno{
-   color: black;
+   color: white;
  }
 p {
   line-height: 1.55;
-  color:black;
+  color:white;
   font-size: 400;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -42,7 +43,7 @@ h4 {
  
 
 
-.id
+.id,.s;
 {
 
   background-image: url(../img/cover.jpg);
@@ -528,6 +529,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 Citation
 
+.troiss{
+	display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
 .uno,.troiss,.nb
 {
   color:black;
@@ -543,6 +550,7 @@ Citation
   font-family: 'Cinzel', serif;  
   color: #ffffff;
   background-color: brown;
+	position: relative;
 }
 
 .une,.deux,.trois{
@@ -702,6 +710,8 @@ background-image: url(../img/cover.jpg);
 .trois
 {
   padding-right: 20px;
+	color: #fff;
+	
 }
 
 .notification{
@@ -722,11 +732,17 @@ background-image: url(../img/cover.jpg);
 {
   background-image: url(../img/cover.jpg);
   size: 20px;
+	
 }
 
+.is-child{
+	text-align: center;
+	 border: 5px solid black;
+}
 
-
-
+#box{
+	text-align: center;
+}
 
 
 
@@ -1021,7 +1037,13 @@ GLOBAL
 }
 /*
 Citation
+
 */
+
+
+#citations{
+	align-content: center;
+}
 .heading-Homme{
   font-family: 'Cinzel', serif;
   color: #ffffff;
@@ -1140,6 +1162,7 @@ ABOUT
 }
 .imageFlottant {
   float: left;
+	position: relative;
 }
 
 /*
