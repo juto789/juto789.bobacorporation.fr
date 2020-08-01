@@ -543,8 +543,11 @@ Citation
 
 .uno,.troiss,.nb
 {
-  color:white;
+  text-align: center;
   
+}
+#como{
+  color :white;
 }
 */
 .about-sigle-element2
