@@ -849,6 +849,14 @@ about-sigle-element2{
 .site-footer {
   background-color: #b111;
   padding: 0;
+
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
 }
 
 .site-footer h2,
