@@ -1,6 +1,8 @@
 
 $(document).ready(function() {
 
+alert("Le site est en plein changement");
+
   // Smooth scrolling
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
