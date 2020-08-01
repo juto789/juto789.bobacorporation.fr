@@ -627,6 +627,12 @@ background-image: url(../img/cover.jpg);
   #contact h2{
     color: white;
   }
+
+
+about-sigle-element2{
+	background-color: black;
+}
+
 .features {
   padding-bottom: 45px;
 }
