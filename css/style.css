@@ -64,7 +64,8 @@ a {
 
 
 body{
-	color: white;
+  color: white;
+  background-image: url(../img/cover.jpg);
 }
 .btn {
   background-color: rgb(184, 25, 25);
